@@ -4,35 +4,42 @@
   "autoStart": false,
   "lazyLoadTabs": true,
   "websites": [
-	{
-	  "monolith": "true",
-	  "url": "https://app.google.stackdriver.com/dashboards/1197036787694873609?project=prod-co",
-	  "duration": 180,
-	  "tabReloadIntervalSeconds": 60
-	},
-	{
-	  "pubsub": "true",
-	  "url": "https://app.google.stackdriver.com/dashboards/1087763?project=prod-co",
-	  "duration": 180,
-	  "tabReloadIntervalSeconds": 60
-	},
-	{
-	  "workout": "true",
-	  "url": "https://app.google.stackdriver.com/dashboards/4000408488531771770?project=prod-co",
-	  "duration": 180,
-	  "tabReloadIntervalSeconds": 60
-	},
-	{
-	  "upds": "true",
-	  "url": "https://app.google.stackdriver.com/dashboards/1091231?project=prod-co",
-	  "duration": 180,
-	  "tabReloadIntervalSeconds": 60
-	},
-	{
-	  "server-gyms": "true",
-	  "url": "https://app.google.stackdriver.com/dashboards/9955883023747482894?project=prod-near",
-	  "duration": 180,
-	  "tabReloadIntervalSeconds": 60
-	}
+        {
+          "monolith": "true",
+          "url": "https://app.google.stackdriver.com/dashboards/1197036787694873609?project=prod-co",
+          "duration": 180,
+          "tabReloadIntervalSeconds": 60
+        },
+        {
+          "pubsub": "true",
+          "url": "https://app.google.stackdriver.com/dashboards/1087763?project=prod-co",
+          "duration": 180,
+          "tabReloadIntervalSeconds": 60
+        },
+        {
+          "workout": "true",
+          "url": "https://app.google.stackdriver.com/dashboards/4000408488531771770?project=prod-co",
+          "duration": 180,
+          "tabReloadIntervalSeconds": 60
+        },
+        {
+          "upds": "true",
+          "url": "https://app.google.stackdriver.com/dashboards/1091231?project=prod-co",
+          "duration": 180,
+          "tabReloadIntervalSeconds": 60
+        },
+        {
+          "server-gyms": "true",
+          "url": "https://app.google.stackdriver.com/dashboards/9955883023747482894?project=prod-near",
+          "duration": 180,
+          "tabReloadIntervalSeconds": 60
+        },
+        {
+          "server-workout": "true",
+          "url": "https://grafana.co.ts.egym.com/d/000000038/workout?orgId=1&refresh=5s",
+          "duration": 180,
+          "tabReloadIntervalSeconds": 60
+        }
   ]
 }
+
